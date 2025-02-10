@@ -1,0 +1,3 @@
+# COBOL Table Indexing Error
+This repository demonstrates a common off-by-one error when working with tables (arrays) in COBOL.  COBOL arrays are 1-based, meaning the first element is accessed using index 1, not 0. The provided code attempts to access an index beyond the bounds of the declared array resulting in unpredictable behavior.
+The solution corrects the index bounds to prevent exceeding the array limits.  This simple example illustrates a pitfall that can cause runtime errors in COBOL programs.
